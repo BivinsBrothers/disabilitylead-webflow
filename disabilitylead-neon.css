@@ -54,6 +54,11 @@
     list-style: none;
   }
 
+.neoncrm-section-header {
+    font-family: franklin-gothic-urw;
+    font-weight: 700;
+}
+
   .neoncrm-event-additionalDonation > *:last-child {
     grid-column: span 2;
   }
