@@ -2602,7 +2602,7 @@ figcaption {
   -webkit-order: -1;
   -ms-flex-order: -1;
   order: -1;
-  background-image: url('../images/logo-mark_1.svg');
+  background-image: url('https://uploads-ssl.webflow.com/5ff610c8c347a04529e99f11/6042a9ad1021242b5d56a6c9_logo-mark.svg');
   background-position: 50% 50%;
   background-size: 40px 40px;
   background-repeat: no-repeat;
