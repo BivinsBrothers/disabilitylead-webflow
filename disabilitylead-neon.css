@@ -1,0 +1,365 @@
+.neoncrm-event-admission > ul {
+      padding-left: 0px;
+      list-style-type: none;
+    }
+    
+    .list-2 {
+      list-style-type: none;
+    }
+    
+    .neoncrm-event-additionalDonation {
+      display: -ms-grid;
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-column-gap: 32px;
+      grid-row-gap: 16px;
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+    }
+
+    .neoncrm-text-field {
+      height: 40px;
+    }
+
+    .neon2Field,
+    .neon2Field3,
+    .neoncrm-select {
+      font-size: 18px;
+      padding: 0 20px;
+      width: 400px;
+    }
+
+    .neon2Field {
+      height: 50px;
+    }
+
+    .neon2Field3 {
+      height: 200px;
+      width: 400px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: Roboto;
+    }
+
+    .neoncrm-select {
+      height: 50px;
+      border-radius: 0;
+      max-width: 400px!important;
+    }
+
+    .neoncrm-event-admission > ul {
+      margin: 0;
+      list-style: none;
+    }
+
+    .neoncrm-event-additionalDonation > *:last-child {
+      grid-column: span 2;
+    }
+
+    .neon-radio-button {
+      width: 60%;
+    }
+
+    .neoncrm-field-label {
+      grid-column: span 2;
+      font-size: 16px;
+      margin-top: 3em!important;
+      margin-bottom: 1.5em;
+    }
+
+    .neoncrm-content {
+      margin-bottom: 3em;
+    }
+
+    table {
+      margin-bottom: 3em;
+      border-collapse: collapse;
+    }
+
+    td {
+      height: 50px;
+      vertical-align: middle;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+    }
+    
+    .neoncrm-order-summary tfoot td, .neoncrm-order-summary .neoncrm-item-subtotal, .neoncrm-order-summary .neoncrm-item-price {
+      text-align: right;
+      width: 20%;
+    }
+
+    .neoncrm-table {
+      min-width: 600px;
+      font-size: 20px;
+      line-height: 1.4;
+      font-family: 'franklin-gothic-urw';
+      font-weight: 700;
+    }
+    .neoncrm-button,
+    .neoncrm-link-container a,
+    .neoncrm-org-toggle input[type="button"],
+    .neoncrm-submit {
+      display: inline-block;
+      padding: 12px 25px;
+      border: 1px solid #000!important;
+      border-radius: 0px;
+      background-color: #fff;
+      -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+      transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+      color: #000;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    
+    .neoncrm-button:hover
+    .neoncrm-link-container a:hover,
+    .neoncrm-org-toggle input[type="button"]:hover,
+    .neoncrm-submit:hover {
+      background-color: #32343a;
+      color: #fff;
+    }
+    
+    .neoncrm-button:active {
+      background-color: #43464d;
+    }
+    
+    .neoncrm-button.cc-jumbo-button {
+      padding: 16px 35px;
+      font-size: 14px;
+      line-height: 26px;
+    }
+    
+    .neoncrm-button.cc-jumbo-button.cc-jumbo-white {
+      background-color: #fff;
+      color: #000;
+    }
+    
+    .neoncrm-button.cc-jumbo-button.cc-jumbo-white:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .neoncrm-button.cc-jumbo-button.cc-jumbo-white:active {
+      background-color: #e1e1e1;
+    }
+    
+    .neoncrm-button.cc-contact-us {
+      position: relative;
+      z-index: 5;
+    }
+    
+    .neoncrm-button.cc-white-button {
+      padding: 16px 35px;
+      background-color: #fff;
+      color: #202020;
+      font-size: 14px;
+      line-height: 26px;
+    }
+    
+    .neoncrm-button.cc-white-button:hover {
+      background-color: hsla(0, 0%, 100%, 0.8);
+    }
+    
+    .neoncrm-button.cc-white-button:active {
+      background-color: hsla(0, 0%, 100%, 0.9);
+    }
+    
+    .neoncrm-button.is-reversed {
+      border: 1px solid #000;
+      background-color: #fff;
+      color: #000;
+    }
+    
+    .c-button-copy {
+      display: inline-block;
+      padding: 12px 25px;
+      border: 1px solid #000;
+      border-radius: 0px;
+      background-color: #1a1b1f;
+      -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+      transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
+      color: #fff;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 2px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    
+    .c-button-copy:hover {
+      background-color: #32343a;
+      color: #fff;
+    }
+    
+    .c-button-copy:active {
+      background-color: #43464d;
+    }
+    
+    .c-button-copy.cc-jumbo-button {
+      padding: 16px 35px;
+      font-size: 14px;
+      line-height: 26px;
+    }
+    
+    .c-button-copy.cc-jumbo-button.cc-jumbo-white {
+      background-color: #fff;
+      color: #000;
+    }
+    
+    .c-button-copy.cc-jumbo-button.cc-jumbo-white:hover {
+      background-color: #f1f1f1;
+    }
+    
+    .c-button-copy.cc-jumbo-button.cc-jumbo-white:active {
+      background-color: #e1e1e1;
+    }
+    
+    .c-button-copy.cc-contact-us {
+      position: relative;
+      z-index: 5;
+    }
+    
+    .c-button-copy.cc-white-button {
+      padding: 16px 35px;
+      background-color: #fff;
+      color: #202020;
+      font-size: 14px;
+      line-height: 26px;
+    }
+    
+    .c-button-copy.cc-white-button:hover {
+      background-color: hsla(0, 0%, 100%, 0.8);
+    }
+    
+    .c-button-copy.cc-white-button:active {
+      background-color: hsla(0, 0%, 100%, 0.9);
+    }
+    
+    .c-button-copy.is-reversed {
+      border: 1px solid #000;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .neoncrm-event-name {
+      font-size: 44px;
+      font-family: 'franklin-gothic-urw';
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .neoncrm-event-location,
+    .neoncrm-event-summary,
+    .neoncrm-event-date,
+    .neoncrm-event-admission,
+    .neoncrm-content,
+    .attendeeHelp,
+    .neoncrm-event-registration-list-summary,
+    p {
+      font-size: 16px;
+    }
+
+    .neoncrm-link-container a {
+
+    }
+
+    .neonRadioInput,
+    #oneTimeDonationRadio,
+    #recurringDonationRadio {
+      width: 0px;
+      opacity: 0;
+    }
+    
+    .neoncrm-radio-label {
+      width: 100%;
+      padding: 20px 40px;
+      background-color: #300057;
+      color: #fff;
+      font-size: 22px;
+      text-align: center;
+      position: relative;
+    }
+
+    .neoncrm-radio-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 40px;
+      max-width: 811px;
+    }
+
+    .neoncrm-radio-group label {
+      display: block!important;
+    }
+
+    .neoncrm-radio-button:nth-child(8) {
+      grid-column: span 2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .neoncrm-radio-button:nth-child(8) > .neonRadioInput {
+      display: none;
+    }
+
+    .neoncrm-radio-button:nth-child(8) > .neoncrm-radio-label {
+      width: 48%;
+    }
+
+    .neoncrm-radio-button:nth-child(8) > .neon2Field {
+      width: 48%;
+    }
+    .neoncrm-radio-button:nth-child(8) > .neonFieldLabel {
+      display: none;
+    }
+
+    .neoncrm-radio-button input[type="radio"]:checked + label {
+      background:#a63086;
+    }
+
+    .neoncrm-event-additionalDonation > div > .neon-radio-button > .neoncrm-radio-label {
+      background: transparent;
+      color: black;
+    }
+
+    .neoncrm-event-additionalDonation > div > .neon-radio-button {
+      width: 100%;
+    }
+
+        @media screen and (max-width: 991px) {
+    
+      .neoncrm-button {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+    
+      .neoncrm-button.cc-contact-us {
+        display: none;
+      }
+    
+      .c-button-copy {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+    
+      .c-button-copy.cc-contact-us {
+        display: none;
+      }
+    }
+
+    #wf-form-neon-Donation-Form.w-node-df0ef215-2b9d-4785-ce21-9ec8bcb052e3-ec1a34da {
+      -ms-grid-column-align: center;
+      justify-self: center;
+    }
